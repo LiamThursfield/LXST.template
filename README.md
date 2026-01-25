@@ -1,75 +1,50 @@
-# Nuxt Minimal Starter
+# LXST.template
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A premium, high-performance website template built with **Nuxt 4**, **Tailwind CSS 4**, and **shadcn-vue**. Designed for clean architecture, SEO excellence, and rapid development.
+
+## Tech Stack
+
+- **Framework**: [Nuxt 4](https://nuxt.com) (Future-ready)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com) (CSS-first configuration)
+- **UI Components**: [shadcn-vue](https://www.shadcn-vue.com)
+- **Language**: TypeScript
+
+## Features
+
+- ⚡ **High Performance**: Optimized with Nuxt Image and server-side rendering.
+- 📱 **Fully Responsive**: Mobile-first design approach tested across breakpoints.
+- 🤖 **AI-Ready Guidelines**: Includes `app/AI.md` for strict AI coding standards.
+- 🧩 **Modular Architecture**: Component-based design with reusable patterns.
 
 ## Setup
 
-Make sure to install dependencies:
+Ensure you have `pnpm` installed.
 
 ```bash
-# npm
-npm install
-
-# pnpm
+# Install dependencies
 pnpm install
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
+# Start development server
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+Server will start at `http://localhost:3000`.
 
-Build the application for production:
+## Scripts
 
-```bash
-# npm
-npm run build
+| Command | Description |
+|Col1|Col2|
+|---|---|
+| `pnpm dev` | Start development server |
+| `pnpm build` | Build for production |
+| `pnpm start` | Preview production build |
+| `pnpm lint:fix` | Fix linting errors |
 
-# pnpm
-pnpm build
+## Project Structure
 
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- `app/` - Core application source
+    - `components/` - Vue components (including `ui/` for shadcn)
+    - `pages/` - Application routes
+    - `assets/` - Static assets and global CSS
+    - `layouts/` - Page layouts
+    - `AI.md` - AI architectural guidelines

@@ -1,6 +1,6 @@
 # LXST.template
 
-A premium, high-performance website template built with **Nuxt 4**, **Tailwind CSS 4**, and **shadcn-vue**. Designed for clean architecture, SEO excellence, and rapid development.
+A website template built with **Nuxt 4**, **Tailwind CSS 4**, and **shadcn-vue**. Designed for clean architecture, SEO excellence, and rapid development.
 
 ## Tech Stack
 

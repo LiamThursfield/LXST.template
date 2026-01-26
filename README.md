@@ -47,4 +47,4 @@ Server will start at `http://localhost:3000`.
     - `pages/` - Application routes
     - `assets/` - Static assets and global CSS
     - `layouts/` - Page layouts
-    - `AI.md` - AI architectural guidelines
+- `AI.md` - AI architectural guidelines

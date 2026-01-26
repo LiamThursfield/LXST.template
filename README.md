@@ -33,7 +33,6 @@ Server will start at `http://localhost:3000`.
 ## Scripts
 
 | Command | Description |
-|Col1|Col2|
 |---|---|
 | `pnpm dev` | Start development server |
 | `pnpm build` | Build for production |

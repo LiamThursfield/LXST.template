@@ -42,7 +42,10 @@ Server will start at `http://localhost:3000`.
 ## Project Structure
 
 - `app/` - Core application source
-    - `components/` - Vue components (including `ui/` for shadcn)
+    - `components/` - Vue components
+        - `ui/` - shadcn-vue primitives
+        - `lxst/` - Shared template components (LXST.template design system)
+        - `project/` - Site-specific features and components
     - `pages/` - Application routes
     - `assets/` - Static assets and global CSS
     - `layouts/` - Page layouts

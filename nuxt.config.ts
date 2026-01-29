@@ -33,7 +33,7 @@ export default defineNuxtConfig({
             bodyAttrs: {
                 class: 'dark'
             },
-            title: 'LXST.template',
+            title: 'LXST.template | Premium Website Template',
             meta: [
                 { charset: 'utf-8' },
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -43,7 +43,30 @@ export default defineNuxtConfig({
                     content:
                         'A premium, high-performance website template built with Nuxt 4, Tailwind 4, and shadcn-vue.'
                 },
-                { name: 'theme-color', content: '#00FF99' }
+
+                { name: 'theme-color', content: '#00FF99' },
+
+                // Open Graph / Facebook
+                { property: 'og:type', content: 'website' },
+                { property: 'og:url', content: 'https://lxst.template/' },
+                { property: 'og:title', content: 'LXST.template | Premium Website Template' },
+                {
+                    property: 'og:description',
+                    content:
+                        'A premium, high-performance website template built with Nuxt 4, Tailwind 4, and shadcn-vue.'
+                },
+                { property: 'og:image', content: '/meta/og_image.png' },
+
+                // Twitter
+                { property: 'twitter:card', content: 'summary_large_image' },
+                { property: 'twitter:url', content: 'https://lxst.template/' },
+                { property: 'twitter:title', content: 'LXST.template | Premium Website Template' },
+                {
+                    property: 'twitter:description',
+                    content:
+                        'A premium, high-performance website template built with Nuxt 4, Tailwind 4, and shadcn-vue.'
+                },
+                { property: 'twitter:image', content: '/meta/og_image.png' }
             ],
             link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
         }

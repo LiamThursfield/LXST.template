@@ -50,6 +50,7 @@
 
     --spacing: 0.25rem;
     --spacing-gutter: 1rem;
+    --spacing-content-container: 72rem;
 
     --transition-smooth: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -180,5 +181,16 @@
     }
     body {
         @apply bg-background text-foreground;
+    }
+
+    a,
+    button,
+    [button] {
+        @apply cursor-pointer select-none;
+    }
+
+    a:disabled,
+    button:disabled {
+        @apply cursor-default;
     }
 }

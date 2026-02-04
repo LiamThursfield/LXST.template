@@ -1,0 +1,4 @@
+.mobile-open {
+    overflow-y: hidden;
+    scrollbar-gutter: stable;
+}

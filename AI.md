@@ -18,7 +18,12 @@ LXST.template is a high-performance, SEO-friendly website template built with Nu
 
 - We use the new `@theme` block in `app/assets/css/tailwind.css`.
 - Avoid `tailwind.config.js` unless absolutely necessary for external plugins.
-- Use CSS variables defined in the theme for consistent styling.
+- We use the new `@theme` block in `app/assets/css/tailwind.css`.
+- Avoid `tailwind.config.js` unless absolutely necessary for external plugins.
+- **CRITICAL**: Use CSS variables defined in the theme for consistent styling.
+    - **DO NOT** use arbitrary or default Tailwind colors like `bg-red-500` or `text-blue-600`.
+    - **ALWAYS** use theme tokens (e.g., `bg-primary`, `text-muted-foreground`, `border-border`).
+    - Verify colors in `app/assets/css/tailwind.css` before implementing.
 
 ### 3. shadcn-vue Integration
 

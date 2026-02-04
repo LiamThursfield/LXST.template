@@ -32,12 +32,12 @@ Server will start at `http://localhost:3000`.
 
 ## Scripts
 
-| Command | Description |
-|---|---|
-| `pnpm dev` | Start development server |
-| `pnpm build` | Build for production |
-| `pnpm start` | Preview production build |
-| `pnpm lint:fix` | Fix linting errors |
+| Command         | Description              |
+| --------------- | ------------------------ |
+| `pnpm dev`      | Start development server |
+| `pnpm build`    | Build for production     |
+| `pnpm start`    | Preview production build |
+| `pnpm lint:fix` | Fix linting errors       |
 
 ## Project Structure
 
